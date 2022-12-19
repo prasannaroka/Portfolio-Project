@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cormorant+Garamond&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;1,8..144,200&family=Roboto:ital,wght@0,400;1,500&family=Rubik+80s+Fade&family=Rubik+Spray+Paint&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@500&family=Zen+Dots&display=swap');
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(193, 237, 250);
+    /* width: 300px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 22px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.main {
+    /* background-color: green; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: red; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 65px;
+}
+
+.name {
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 30px;
+}
+
+.moreabout {
+    font-size: 22px;
+    margin-top: 23px;
+}
+
+.buttons {
+    margin-top: 34px;
+
+}
+
+.btn {
+    padding: 2px 14px;
+    color: black;
+    background-color: rgb(193, 237, 250);
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 8px;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+.contact-form {
+    padding: 0 34px;
+    padding-top: 144px;
+
+}
+
+.contact-form h1 {
+    /* text-align: center; */
+    padding: 12px 0;
+}
+
+.contact-form form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form div input {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem {
+    margin: 20px;
+}
+
+.blogItem h1 {
+
+}
+
+h1 {
+    margin: 23px;
+}
+
+p {}
+
+.intro h2 {
+    margin: 12px;
+    font-size: xx-large;
+    margin-top: 30px;
+}
+
+.intro p {
+    margin: 12px;
+
+}
+
+.skillcontainer {
+    padding: 12px;
+
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-weight: 1000;
+    padding: 12px;
+    font-size: larger;
+
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hund {
+    width: 265px;
+    background-color: red;
+
+}
+
+.fifty {
+    width: 125px;
+    background-color: brown;
+}
+
+.t5 {
+    width: 75px;
+    background-color: rgb(167, 101, 101);
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    margin-top: 0px;
+    left: 10px;
+    /* width: 40px; */
+
+}
+
+.cross {
+    margin-top: 14px;
+    margin-left: 132px;
+    width: 23px;
+
+}
+
+.ham {
+    margin-top: 10px;
+    margin-left: 4px;
+    width: 25px;
+}
+
+@media (max-width: 1000px) {
+.devPic{
+    display: none;
+}
+
+        /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+
+    }
+
+    .blogcontainer{
+        margin: 100px 175px;
+    }
+    .contact-form{
+        margin: -89px 165px;
+
+    }
+    .intro{
+        margin: 100px 185px;
+    }
+    .infoContainer{
+          margin: 80px 198px;
+    }
+    .btn-smc{
+        background-color: rgb(193, 237, 250);
+        padding: 6px;
+        border-radius: 6px;
+        font-weight: bold;
+    }
